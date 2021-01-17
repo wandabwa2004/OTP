@@ -40,7 +40,7 @@ def predict_quality(model, df):
     
     return predictions_data['Label'][0]
     
-model = load_model('Randomforestmodel.pkl')
+model = load_model('Randomforestmodel')
 
 
 st.title('Kiwirail Trains OnTime  Predictions')
